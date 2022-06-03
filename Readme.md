@@ -12,6 +12,9 @@
 
 
 7) анализирует переменные окружения с префиксом RSS_и выводит их на консоль --- node ./src/cli/env.js;
-7) анализирует аргументы командной строки --- node ./src/cli/args.js;
+8) анализирует аргументы командной строки --- node ./src/cli/args.js;
+
+9) читает fileToRead.txtсодержимое файла --- node ./src/streams/files/read.js;
+10) записывает process.stdinданные в содержимое файла fileToWrite.txt --- node ./src/streams/files/write.js;
 
  -->
