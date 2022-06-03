@@ -1,7 +1,8 @@
 import fs from 'fs';
+import path from 'path';
 
 export const read = async () => {
-    fs.readFile("./src/fs/files/fileToRead.txt", function(err, data){
+    fs.readFile(`./src/fs/files/fileToRead.txt`, function(err, data){
         if (err) {
             throw new Error("FS operation failed");
         } else {
