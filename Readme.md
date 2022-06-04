@@ -17,4 +17,9 @@
 9) читает fileToRead.txtсодержимое файла --- node ./src/streams/files/read.js;
 10) записывает process.stdinданные в содержимое файла fileToWrite.txt --- node ./src/streams/files/write.js;
 
+
+11) сжимает файл fileToCompress.txtдля archive.gz --- node ./src/zip/compress.js;
+12) распаковывает archive.gzобратно в тот fileToCompress.txt --- node ./src/zip/decompress.js;
+
+
  -->
